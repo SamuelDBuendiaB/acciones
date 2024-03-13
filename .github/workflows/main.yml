@@ -18,6 +18,9 @@ jobs:
       with:
         java-version: 11
 
+    - name: permiso
+      run: chmod +x gradlew
+
     - name: Cache Gradle packages
       uses: actions/cache@v2
       with:
