@@ -28,5 +28,5 @@ jobs:
         key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
 
     - name: Run tests
-      run: ./gradlew test "app.src.test.java.com.example.myapplication.OperacionesTest"
+      run: ./gradlew test "OperacionesTest"
 
