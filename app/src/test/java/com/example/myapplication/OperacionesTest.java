@@ -25,6 +25,6 @@ public class OperacionesTest {
 
     @Test
     public void resta() {
-        assertEquals("1",nOper.resta("3","3"));
+        assertEquals("1",nOper.resta("4","3"));
     }
 }
